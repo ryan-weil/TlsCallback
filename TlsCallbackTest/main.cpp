@@ -10,4 +10,6 @@ void tls_callback()
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, int nCmdShow)
 {
 	MessageBox(0, L"Main", L"Main", 0);
+	
+	return 0;
 }

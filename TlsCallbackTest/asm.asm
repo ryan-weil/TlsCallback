@@ -48,7 +48,6 @@ array_tls_index QWORD _tls_index, 0
 array_tls_func QWORD tlsfunc, 0
 
 ;===============================================
-;THIS IS WHAT the struct initialization now looks like.  Thanks to aw27.
 
 _tls_used   IMAGE_TLS_DIRECTORY <0,0,array_tls_index,array_tls_func,0,0>   
 
